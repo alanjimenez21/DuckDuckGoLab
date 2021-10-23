@@ -16,7 +16,7 @@ import pytest
 
 url_DuckDuckGo = "https://api.duckduckgo.com/?q="
 
-#Iterate
+#43 Total with the removal of Quincy Adams, Bush Sr. and Cleveland
 @pytest.mark.parametrize("usa_presidents",
                          ["Washington", "Adams", "Jefferson", "Madison", "Monroe",
                           "Jackson", "Van Buren", "Harrison", "Tyler", "Polk",
