@@ -18,7 +18,7 @@ url_DuckDuckGo = "https://api.duckduckgo.com/?q="
 
 #Iterate
 @pytest.mark.parametrize("usapresidents",
-                         ["Washington", "Adams", "Jefferson", "Madison","Monroe", "Quincy Adams", "Jackson", "Van Buren",
+                         ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Quincy Adams", "Jackson", "Van Buren",
                           "Harrison", "Tyler", "Polk", "Taylor", "Filmore", "Pierce", "Buchanan", "Lincoln", "Filmore", "Grant",
                           "Hayes", "Garfield", "Arthur", "Cleveland", "Harrison", "Cleveland", "McKinley", "Roosevelt", "Taft", "Wilson",
                           "Harding", "Coolidge", "Hoover", "Roosevelt", "Truman", "Eisenhower", "Kennedy", "Johnson", "Nixon", "Ford", "Carter",
