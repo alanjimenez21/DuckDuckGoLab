@@ -18,11 +18,15 @@ url_DuckDuckGo = "https://api.duckduckgo.com/?q="
 
 #Iterate
 @pytest.mark.parametrize("usa_presidents",
-                         ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Jackson", "Van Buren",
-                          "Harrison", "Tyler", "Polk", "Taylor", "Filmore", "Pierce", "Buchanan", "Lincoln", "Filmore", "Grant",
-                          "Hayes", "Garfield", "Arthur", "Cleveland", "Harrison", "McKinley", "Roosevelt", "Taft", "Wilson",
-                          "Harding", "Coolidge", "Hoover", "Roosevelt", "Truman", "Eisenhower", "Kennedy", "Johnson", "Nixon", "Ford", "Carter",
-                          "Reagan", "Bush", "Clinton", "Obama", "Trump", "Biden"])
+                         ["Washington", "Adams", "Jefferson", "Madison", "Monroe",
+                          "Jackson", "Van Buren", "Harrison", "Tyler", "Polk",
+                          "Taylor", "Filmore", "Pierce", "Buchanan", "Lincoln",
+                          "Filmore", "Grant", "Hayes", "Garfield", "Arthur",
+                          "Cleveland", "Harrison", "McKinley", "Roosevelt", "Taft",
+                          "Wilson", "Harding", "Coolidge", "Hoover", "Roosevelt",
+                          "Truman", "Eisenhower", "Kennedy", "Johnson", "Nixon",
+                          "Ford", "Carter", "Reagan", "Bush", "Clinton",
+                        "Obama", "Trump", "Biden"])
 
 #Define the Test Function
 def test_presidents_of_the_USA(usa_presidents):
